@@ -18,22 +18,21 @@
 1. Launch an EC2 instance with Ubuntu 
 
 
-2. In Security tab of the instance created 
+2. Open the ports in Security tab of the instance created 
 
-Inbound Rule & Outbound Rule
-
-80, 443
-
-
-3. Now goto the GitHub repo -> Settings -> Actions -> Runners -> Click on New self-hosted runner -> Selct Linux and use x64 as Architecture
-
-Perform execution of the commands listed on the instance
+    Inbound Rule & Outbound Rule
+    
+    80, 443
 
 
-To secure sensitive info we use Secrets and varibales 
+3. Now go to the GitHub repo -> Settings -> Actions -> Runners -> Click on New self-hosted runner -> Select Linux and use x64 as Architecture
+
+    Perform execution of the commands listed on the instance
+
+- To secure sensitive info we use Secrets and varibales 
 
 4. In the github config file change the parameter below
 
-runs-on: self-hosted 
-
-Commit the code, the job must be triggered to run on the instance
+    runs-on: self-hosted 
+    
+    Commit the code, the job must be triggered to run on the instance
