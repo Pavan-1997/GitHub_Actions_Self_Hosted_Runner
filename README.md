@@ -29,7 +29,10 @@
 
     Perform execution of the commands listed on the instance
 
-- To secure sensitive info we use Secrets and varibales 
+![image](https://github.com/Pavan-1997/GitHub_Actions_Self_Hosted_Runner/assets/32020205/df6954ad-3694-4055-a15c-40c78bdf3fd8)
+
+- To secure sensitive info we use Secrets and variables 
+
 
 4. In the github config file change the parameter below
 
